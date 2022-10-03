@@ -1,0 +1,35 @@
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.exe
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\bin\Debug\SourceCode.HostClientAPI.dll
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\bin\Debug\SourceCode.Workflow.Client.dll
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2_Update_Datafields.frmMain.resources
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2_Update_Datafields.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.exe
+c:\users\administrator\documents\visual studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csprojResolveAssemblyReference.cache
+C:\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.exe.config
+C:\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.exe
+C:\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.pdb
+C:\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csprojResolveAssemblyReference.cache
+C:\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2_Update_Datafields.frmMain.resources
+C:\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2_Update_Datafields.Properties.Resources.resources
+C:\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csproj.GenerateResource.Cache
+C:\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.exe
+C:\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.pdb
+C:\K2 Update Datafields\K2 Update Datafields\bin\Debug\SourceCode.HostClientAPI.dll
+C:\K2 Update Datafields\K2 Update Datafields\bin\Debug\SourceCode.Workflow.Client.dll
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.exe.config
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.exe
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Debug\K2 Update Datafields.pdb
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Debug\SourceCode.HostClientAPI.dll
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Debug\SourceCode.Workflow.Client.dll
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Debug\SourceCode.Workflow.Management.dll
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2_Update_Datafields.frmMain.resources
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2_Update_Datafields.Properties.Resources.resources
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csproj.GenerateResource.cache
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csproj.CoreCompileInputs.cache
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csproj.CopyComplete
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.exe
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.pdb
