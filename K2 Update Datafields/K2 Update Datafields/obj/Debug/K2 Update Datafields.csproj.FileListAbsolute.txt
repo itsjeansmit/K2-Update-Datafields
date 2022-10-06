@@ -33,3 +33,4 @@ C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update 
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csproj.CopyComplete
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.exe
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.pdb
+C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Debug\K2 Update Datafields.csproj.AssemblyReference.cache

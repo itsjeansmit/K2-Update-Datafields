@@ -40,7 +40,6 @@ C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update 
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Release\SourceCode.HostClientAPI.dll
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Release\SourceCode.Workflow.Client.dll
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Release\SourceCode.Workflow.Management.dll
-C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.AssemblyReference.cache
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2_Update_Datafields.frmMain.resources
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2_Update_Datafields.Properties.Resources.resources
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.GenerateResource.cache

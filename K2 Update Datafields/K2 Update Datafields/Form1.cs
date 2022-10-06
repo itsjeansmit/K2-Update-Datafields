@@ -217,6 +217,7 @@ namespace K2_Update_Datafields
         private void Update(string dfName, string dfValue, string dfOldValue)
         {
             int numb = 0;
+            string strClientConnection = string.Empty;
             if (!_Restore)
             {
                 Log("");
@@ -230,7 +231,15 @@ namespace K2_Update_Datafields
                 try
                 {
                     SourceCode.Hosting.Client.BaseAPI.SCConnectionStringBuilder connectionString = new SourceCode.Hosting.Client.BaseAPI.SCConnectionStringBuilder();
-                    string strClientConnection = CreateClientConnection();
+                    if (chkUseConnectionString.Checked)
+                    {
+                        strClientConnection = txtK2ClientConnection.Text;
+                    }
+                    else
+                    {
+                        strClientConnection = CreateClientConnection();
+                    }
+                    
                     
                     connection.Open(_serverName, strClientConnection);
 
@@ -291,7 +300,14 @@ namespace K2_Update_Datafields
                 try
                 {
                     SourceCode.Hosting.Client.BaseAPI.SCConnectionStringBuilder connectionString = new SourceCode.Hosting.Client.BaseAPI.SCConnectionStringBuilder();
-                    string strClientConnection = CreateClientConnection();
+                    if (chkUseConnectionString.Checked)
+                    {
+                        strClientConnection = txtK2ClientConnection.Text;
+                    }
+                    else
+                    {
+                        strClientConnection = CreateClientConnection();
+                    }
                     SourceCode.Workflow.Client.Connection connection = new Connection();
 
                     foreach (ListViewItem item in lstProcessInstances.Items)
@@ -339,6 +355,7 @@ namespace K2_Update_Datafields
         private void Retrieve(string strProcess, string dfName, string dfOldValue)
         {
             string strManConnection = string.Empty;
+            string strClientConnection = string.Empty;
             DateTime dtRetrieveStart = DateTime.Now;
             int iStartID = int.Parse(txtProcInstID.Text);
             int iEndID = int.Parse(txtProcInstEnd.Text);
@@ -351,17 +368,19 @@ namespace K2_Update_Datafields
             if (chkUseConnectionString.Checked)
             {
                 strManConnection = txtConnectionString.Text;
+                strClientConnection = txtK2ClientConnection.Text;
             }
             else
             {
 
                 strManConnection = CreateManagementConnection();
+                strClientConnection = CreateClientConnection();
             }
 
             SourceCode.Workflow.Management.WorkflowManagementServer wms = new SourceCode.Workflow.Management.WorkflowManagementServer();
             SourceCode.Workflow.Client.Connection cConn = new Connection();
 
-            string strClientConnection = CreateClientConnection();
+            
 
             try
             {
@@ -534,6 +553,7 @@ namespace K2_Update_Datafields
             if (chkUseConnectionString.Checked)
             {
                 txtConnectionString.Enabled = true;
+                txtK2ClientConnection.Enabled = true;
 
                 txtUsername.Enabled = false;
                 txtLabel.Enabled = false;
@@ -543,12 +563,18 @@ namespace K2_Update_Datafields
             else if (!chkUseConnectionString.Checked)
             {
                 txtConnectionString.Enabled = false;
+                txtK2ClientConnection.Enabled = false;
 
                 txtUsername.Enabled = true;
                 txtLabel.Enabled = true;
                 txtDomain.Enabled = true;
                 txtPassword.Enabled = true;
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

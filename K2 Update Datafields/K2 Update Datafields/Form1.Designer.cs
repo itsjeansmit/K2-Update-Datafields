@@ -71,6 +71,8 @@
             this.txtProcInstID = new System.Windows.Forms.TextBox();
             this.lblEndNo = new System.Windows.Forms.Label();
             this.txtProcInstEnd = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtK2ClientConnection = new System.Windows.Forms.TextBox();
             this.gbCredentials.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -141,7 +143,7 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(471, 229);
+            this.btnConnect.Location = new System.Drawing.Point(472, 265);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(75, 23);
             this.btnConnect.TabIndex = 8;
@@ -152,7 +154,7 @@
             // ddlProcesses
             // 
             this.ddlProcesses.FormattingEnabled = true;
-            this.ddlProcesses.Location = new System.Drawing.Point(152, 258);
+            this.ddlProcesses.Location = new System.Drawing.Point(153, 294);
             this.ddlProcesses.Name = "ddlProcesses";
             this.ddlProcesses.Size = new System.Drawing.Size(393, 21);
             this.ddlProcesses.TabIndex = 9;
@@ -160,7 +162,7 @@
             // lblProcess
             // 
             this.lblProcess.AutoSize = true;
-            this.lblProcess.Location = new System.Drawing.Point(14, 261);
+            this.lblProcess.Location = new System.Drawing.Point(15, 297);
             this.lblProcess.Name = "lblProcess";
             this.lblProcess.Size = new System.Drawing.Size(90, 13);
             this.lblProcess.TabIndex = 10;
@@ -169,7 +171,7 @@
             // lblDatafieldName
             // 
             this.lblDatafieldName.AutoSize = true;
-            this.lblDatafieldName.Location = new System.Drawing.Point(14, 288);
+            this.lblDatafieldName.Location = new System.Drawing.Point(15, 324);
             this.lblDatafieldName.Name = "lblDatafieldName";
             this.lblDatafieldName.Size = new System.Drawing.Size(128, 13);
             this.lblDatafieldName.TabIndex = 11;
@@ -177,14 +179,14 @@
             // 
             // txtDatafieldName
             // 
-            this.txtDatafieldName.Location = new System.Drawing.Point(153, 285);
+            this.txtDatafieldName.Location = new System.Drawing.Point(154, 321);
             this.txtDatafieldName.Name = "txtDatafieldName";
             this.txtDatafieldName.Size = new System.Drawing.Size(393, 20);
             this.txtDatafieldName.TabIndex = 10;
             // 
             // btnRetrieve
             // 
-            this.btnRetrieve.Location = new System.Drawing.Point(471, 361);
+            this.btnRetrieve.Location = new System.Drawing.Point(472, 397);
             this.btnRetrieve.Name = "btnRetrieve";
             this.btnRetrieve.Size = new System.Drawing.Size(75, 23);
             this.btnRetrieve.TabIndex = 16;
@@ -195,7 +197,7 @@
             // lstProcessInstances
             // 
             this.lstProcessInstances.HideSelection = false;
-            this.lstProcessInstances.Location = new System.Drawing.Point(19, 392);
+            this.lstProcessInstances.Location = new System.Drawing.Point(20, 428);
             this.lstProcessInstances.Name = "lstProcessInstances";
             this.lstProcessInstances.Size = new System.Drawing.Size(527, 194);
             this.lstProcessInstances.TabIndex = 14;
@@ -203,7 +205,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(471, 592);
+            this.btnClose.Location = new System.Drawing.Point(472, 628);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 18;
@@ -213,7 +215,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(390, 592);
+            this.btnUpdate.Location = new System.Drawing.Point(391, 628);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 17;
@@ -223,7 +225,7 @@
             // 
             // txtDatafieldValue
             // 
-            this.txtDatafieldValue.Location = new System.Drawing.Point(153, 337);
+            this.txtDatafieldValue.Location = new System.Drawing.Point(154, 373);
             this.txtDatafieldValue.Name = "txtDatafieldValue";
             this.txtDatafieldValue.Size = new System.Drawing.Size(393, 20);
             this.txtDatafieldValue.TabIndex = 12;
@@ -231,7 +233,7 @@
             // lblDatafieldValue
             // 
             this.lblDatafieldValue.AutoSize = true;
-            this.lblDatafieldValue.Location = new System.Drawing.Point(14, 340);
+            this.lblDatafieldValue.Location = new System.Drawing.Point(15, 376);
             this.lblDatafieldValue.Name = "lblDatafieldValue";
             this.lblDatafieldValue.Size = new System.Drawing.Size(107, 13);
             this.lblDatafieldValue.TabIndex = 17;
@@ -290,13 +292,15 @@
             // 
             // gbCredentials
             // 
+            this.gbCredentials.Controls.Add(this.label4);
             this.gbCredentials.Controls.Add(this.label3);
+            this.gbCredentials.Controls.Add(this.txtK2ClientConnection);
             this.gbCredentials.Controls.Add(this.txtConnectionString);
             this.gbCredentials.Controls.Add(this.chkUseConnectionString);
             this.gbCredentials.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.gbCredentials.Location = new System.Drawing.Point(5, 65);
             this.gbCredentials.Name = "gbCredentials";
-            this.gbCredentials.Size = new System.Drawing.Size(540, 158);
+            this.gbCredentials.Size = new System.Drawing.Size(540, 194);
             this.gbCredentials.TabIndex = 25;
             this.gbCredentials.TabStop = false;
             this.gbCredentials.Text = "K2 Admin Credentials";
@@ -307,9 +311,9 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(12, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 13);
+            this.label3.Size = new System.Drawing.Size(102, 13);
             this.label3.TabIndex = 35;
-            this.label3.Text = "K2 Admin Password:";
+            this.label3.Text = "K2 Man ConnString:";
             // 
             // txtConnectionString
             // 
@@ -339,7 +343,7 @@
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStatus.ForeColor = System.Drawing.Color.Red;
-            this.lblStatus.Location = new System.Drawing.Point(17, 597);
+            this.lblStatus.Location = new System.Drawing.Point(18, 633);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(71, 13);
             this.lblStatus.TabIndex = 26;
@@ -347,7 +351,7 @@
             // 
             // txtOldDatafieldValue
             // 
-            this.txtOldDatafieldValue.Location = new System.Drawing.Point(153, 311);
+            this.txtOldDatafieldValue.Location = new System.Drawing.Point(154, 347);
             this.txtOldDatafieldValue.Name = "txtOldDatafieldValue";
             this.txtOldDatafieldValue.Size = new System.Drawing.Size(393, 20);
             this.txtOldDatafieldValue.TabIndex = 11;
@@ -355,7 +359,7 @@
             // lblOldDFValue
             // 
             this.lblOldDFValue.AutoSize = true;
-            this.lblOldDFValue.Location = new System.Drawing.Point(14, 314);
+            this.lblOldDFValue.Location = new System.Drawing.Point(15, 350);
             this.lblOldDFValue.Name = "lblOldDFValue";
             this.lblOldDFValue.Size = new System.Drawing.Size(101, 13);
             this.lblOldDFValue.TabIndex = 27;
@@ -363,7 +367,7 @@
             // 
             // btnRestore
             // 
-            this.btnRestore.Location = new System.Drawing.Point(307, 592);
+            this.btnRestore.Location = new System.Drawing.Point(308, 628);
             this.btnRestore.Name = "btnRestore";
             this.btnRestore.Size = new System.Drawing.Size(75, 23);
             this.btnRestore.TabIndex = 19;
@@ -390,7 +394,7 @@
             // lblNumberOfRecords
             // 
             this.lblNumberOfRecords.AutoSize = true;
-            this.lblNumberOfRecords.Location = new System.Drawing.Point(17, 366);
+            this.lblNumberOfRecords.Location = new System.Drawing.Point(18, 402);
             this.lblNumberOfRecords.Name = "lblNumberOfRecords";
             this.lblNumberOfRecords.Size = new System.Drawing.Size(90, 13);
             this.lblNumberOfRecords.TabIndex = 29;
@@ -398,7 +402,7 @@
             // 
             // txtNumOfRecords
             // 
-            this.txtNumOfRecords.Location = new System.Drawing.Point(153, 363);
+            this.txtNumOfRecords.Location = new System.Drawing.Point(154, 399);
             this.txtNumOfRecords.Name = "txtNumOfRecords";
             this.txtNumOfRecords.Size = new System.Drawing.Size(66, 20);
             this.txtNumOfRecords.TabIndex = 13;
@@ -406,7 +410,7 @@
             // 
             // procBar
             // 
-            this.procBar.Location = new System.Drawing.Point(12, 229);
+            this.procBar.Location = new System.Drawing.Point(13, 265);
             this.procBar.Name = "procBar";
             this.procBar.Size = new System.Drawing.Size(453, 23);
             this.procBar.TabIndex = 31;
@@ -415,7 +419,7 @@
             // lblStartProcInstID
             // 
             this.lblStartProcInstID.AutoSize = true;
-            this.lblStartProcInstID.Location = new System.Drawing.Point(225, 363);
+            this.lblStartProcInstID.Location = new System.Drawing.Point(226, 399);
             this.lblStartProcInstID.Name = "lblStartProcInstID";
             this.lblStartProcInstID.Size = new System.Drawing.Size(49, 13);
             this.lblStartProcInstID.TabIndex = 32;
@@ -423,7 +427,7 @@
             // 
             // txtProcInstID
             // 
-            this.txtProcInstID.Location = new System.Drawing.Point(280, 360);
+            this.txtProcInstID.Location = new System.Drawing.Point(281, 396);
             this.txtProcInstID.Name = "txtProcInstID";
             this.txtProcInstID.Size = new System.Drawing.Size(62, 20);
             this.txtProcInstID.TabIndex = 14;
@@ -432,7 +436,7 @@
             // lblEndNo
             // 
             this.lblEndNo.AutoSize = true;
-            this.lblEndNo.Location = new System.Drawing.Point(348, 363);
+            this.lblEndNo.Location = new System.Drawing.Point(349, 399);
             this.lblEndNo.Name = "lblEndNo";
             this.lblEndNo.Size = new System.Drawing.Size(46, 13);
             this.lblEndNo.TabIndex = 34;
@@ -440,17 +444,39 @@
             // 
             // txtProcInstEnd
             // 
-            this.txtProcInstEnd.Location = new System.Drawing.Point(400, 359);
+            this.txtProcInstEnd.Location = new System.Drawing.Point(401, 395);
             this.txtProcInstEnd.Name = "txtProcInstEnd";
             this.txtProcInstEnd.Size = new System.Drawing.Size(62, 20);
             this.txtProcInstEnd.TabIndex = 15;
             this.txtProcInstEnd.Text = "0";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(12, 157);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(107, 13);
+            this.label4.TabIndex = 35;
+            this.label4.Text = "K2 Client ConnString:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // txtK2ClientConnection
+            // 
+            this.txtK2ClientConnection.Enabled = false;
+            this.txtK2ClientConnection.Location = new System.Drawing.Point(146, 155);
+            this.txtK2ClientConnection.Name = "txtK2ClientConnection";
+            this.txtK2ClientConnection.Size = new System.Drawing.Size(388, 20);
+            this.txtK2ClientConnection.TabIndex = 1;
+            this.txtK2ClientConnection.Text = "Integrated=True;IsPrimaryLogin=True;Authenticate=True;EncryptedPassword=False;Hos" +
+    "t=LOCALHOST;Port=5555;UserID=XXXXXXX;WindowsDomain=YYYYYYY;Password=ZZZZZZZ;Secu" +
+    "rityLabelName=K2";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(558, 635);
+            this.ClientSize = new System.Drawing.Size(558, 658);
             this.Controls.Add(this.txtProcInstEnd);
             this.Controls.Add(this.lblEndNo);
             this.Controls.Add(this.txtProcInstID);
@@ -543,6 +569,8 @@
         private System.Windows.Forms.CheckBox chkUseConnectionString;
         private System.Windows.Forms.TextBox txtConnectionString;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtK2ClientConnection;
     }
 }
 
