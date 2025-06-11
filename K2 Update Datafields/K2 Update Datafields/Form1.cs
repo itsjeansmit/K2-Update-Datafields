@@ -102,6 +102,10 @@ namespace K2_Update_Datafields
             if (chkUseConnectionString.Checked)
             {
                 strManConnection = txtConnectionString.Text;
+
+                Log("==================== STARTING ====================");
+                Log("");
+                Log("Connecting with ConnectionString: " + txtConnectionString.Text);
             }
             else
             {
@@ -113,13 +117,17 @@ namespace K2_Update_Datafields
                 _ClientPort = uint.Parse(txtCPort.Text);
                 _ManPoart = uint.Parse(txtMPort.Text);
 
+                Log("==================== STARTING ====================");
+                Log("");
+                Log("Connecting to server: " + _serverName + ":" + _ManPoart);
+                Log("As user: " + _K2Label + ":" + _Domain + "\\" + _Username);
+
                 strManConnection = CreateManagementConnection();
+
+                Log("Management Connection: " + strManConnection);
             }
 
-            Log("==================== STARTING ====================");
-            Log("");
-            Log("Connecting to server: " + _serverName + ":" + _ManPoart);
-            Log("As user: " + _K2Label + ":" + _Domain + "\\" + _Username);
+            
 
             SourceCode.Workflow.Management.WorkflowManagementServer wms = new SourceCode.Workflow.Management.WorkflowManagementServer();
 

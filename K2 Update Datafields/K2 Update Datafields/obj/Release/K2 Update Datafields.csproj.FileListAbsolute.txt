@@ -47,3 +47,15 @@ C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update 
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.CopyComplete
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.exe
 C:\Users\SmitJ\source\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.pdb
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Release\K2 Update Datafields.exe.config
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Release\K2 Update Datafields.exe
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\bin\Release\K2 Update Datafields.pdb
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.AssemblyReference.cache
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.SuggestedBindingRedirects.cache
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2_Update_Datafields.frmMain.resources
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2_Update_Datafields.Properties.Resources.resources
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.GenerateResource.cache
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.CoreCompileInputs.cache
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.csproj.CopyComplete
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.exe
+E:\To Copy\repos\K2 Update Datafields\K2 Update Datafields\K2 Update Datafields\obj\Release\K2 Update Datafields.pdb
